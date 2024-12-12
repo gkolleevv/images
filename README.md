@@ -1,6 +1,5 @@
 # Imagess
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+Project about getting and images via HTTP request, infinity scrolling, favorites images, lazy-loading, detail image.
 
 ## Development server
 
