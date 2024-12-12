@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="image-gallery">
+    <div *ngFor="let image of favorites()" class="image-item">
+      <img [src]="image" alt="Image" (click)="onImageClick(image)">
+    </div>
+  </div>
+</div>

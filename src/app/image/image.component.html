@@ -1,0 +1,12 @@
+
+<div class="fullscreen-image">
+  <img [src]="image()" alt="Image" />
+</div>
+
+<div class="container">
+  <button mat-flat-button
+          class="btn"
+          (click)="removeImage(image())"
+  >Remove from favorites</button>
+</div>
+

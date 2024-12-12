@@ -1,0 +1,10 @@
+ <div class="image-gallery">
+    <div *ngFor="let image of images()" class="image-item">
+      <img [src]="image" alt="Image" (click)="onImageClick(image)">
+    </div>
+  </div>
+
+ <div *ngIf="isLoading()">
+   <mat-spinner class="loading"></mat-spinner>
+ </div>
+

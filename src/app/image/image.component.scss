@@ -1,0 +1,27 @@
+
+.fullscreen-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  height: 500px;
+  margin: 50px auto auto;
+}
+
+.fullscreen-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .btn {
+    background-color: red;
+    width: 300px;
+    margin: 20px auto auto;
+  }
+}
+

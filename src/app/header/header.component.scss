@@ -1,0 +1,15 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+
+  .photos {
+    border-radius: 10%;
+  }
+
+  .favorites {
+    background-color: beige;
+    border-radius: 10%;
+  }
+}
